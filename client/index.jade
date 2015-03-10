@@ -2,9 +2,12 @@ doctype html
 html(lang='en')
   head
     meta(charset='utf-8')
-    title Prototype
+    title Flip Numbers
     link(rel='stylesheet', href='/style.css')
   body
-    h1 Hello, World
-    script(src='/vendor/jquery/dist/jquery.js')
+    h1 Flip Numbers
+    input#input(type='text', placeholder='add')
+    button#go(type='button') Go! 
+    #boxes 
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js')
     script(src='/main.js')

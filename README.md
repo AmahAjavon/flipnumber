@@ -1,1 +1,1 @@
-# prototype
+Simple exercise squarring each input splitted on a comma and appending the outputs inversely into boxes. We then add two buttons left and right which move each box in the right position when clicked (left, right).
